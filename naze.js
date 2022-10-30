@@ -2313,7 +2313,7 @@ break
 	       break     
 	        case 'simih': case 'simisimi': {
             if (!text) throw `Example : ${prefix + command} text`
-            hm = await fetchJson(api('zenz', '/api/simisimi', { text : text }, 'apikey'))
+            hm = await fetchJson(api('zenz', '/api/simisimi', { text : text }, '0e92565522'))
             m.reply(hm.result.message)
             }
             break
