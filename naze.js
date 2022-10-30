@@ -3521,7 +3521,7 @@ ${id}`)
             break
             case 'gsmarena': {
             if (!text) throw `Example : ${prefix + command} samsung`
-            let res = await fetchJson(api('zenz', '/webzone/gsmarena', { query: text }, 'apikey'))
+            let res = await fetchJson(api('zenz', '/webzone/gsmarena', { query: text }, '0e92565522'))
             let { judul, rilis, thumb, ukuran, type, storage, display, inchi, pixel, videoPixel, ram, chipset, batrai, merek_batre, detail } = res.result
 let capt = `⭔ Title: ${judul}
 ⭔ Realease: ${rilis}
@@ -3564,7 +3564,7 @@ let capt = `⭔ Title: ${judul}
 		     }
                 break
                 case 'nowplayingbioskop': {
-            let res = await fetchJson(api('zenz', '/webzone/nowplayingbioskop', {}, 'apikey'))
+            let res = await fetchJson(api('zenz', '/webzone/nowplayingbioskop', {}, '0e92565522'))
             let capt = `Now Playing Bioskop\n\n`
             for (let i of res.result){
             capt += `⭔ Title: ${i.title}\n`
@@ -3576,7 +3576,7 @@ let capt = `⭔ Title: ${judul}
             break
             case 'aminio': {
             if (!text) throw `Example: ${prefix + command} free fire`
-            let res = await fetchJson(api('zenz', '/webzone/amino', { query: text }, 'apikey'))
+            let res = await fetchJson(api('zenz', '/webzone/amino', { query: text }, '0e92565522'))
             let capt = `Amino Search From : ${text}\n\n`
             for (let i of res.result){
             capt += `⭔ Community: ${i.community}\n`
@@ -3590,7 +3590,7 @@ let capt = `⭔ Title: ${judul}
             break
             case 'wattpad': {
             if (!text) throw `Example : ${prefix + command} love`
-            let res = await fetchJson(api('zenz', '/webzone/wattpad', { query: text }, 'apikey'))
+            let res = await fetchJson(api('zenz', '/webzone/wattpad', { query: text }, '0e92565522'))
             let { judul, dibaca, divote, bab, waktu, url, thumb, description } = res.result[0]
             let capt = `Wattpad From ${text}\n\n`
             capt += `⭔ Judul: ${judul}\n`
@@ -3726,7 +3726,7 @@ let alfamart = `628111500959@s.whatsapp.net`
   }
  break
             case 'simplemenu': case 'list': case 'help': {
-            let ownernya = ownernomer + '@s.whatsapp.net'
+            let ownernya = ownernomer + '6285798267620@s.whatsapp.net'
             let me = m.sender
             let ments = [ownernya, me, ini_mark]
             let kukiw = `*Kak ${pushname}*`
