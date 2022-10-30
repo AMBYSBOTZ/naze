@@ -19,11 +19,11 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6285875158363']
-global.ownernomer = "6285875158363"
-global.premium = ['6285875158363']
-global.packname = 'Sticker By'
-global.author = 'Naze Dev'
+global.owner = ['6285798267620']
+global.ownernomer = "6285798267620"
+global.premium = ['6285798267620']
+global.packname = 'Save wa gua 085798267620'
+global.author = 'X I A O - S A N'
 global.sessionName = 'nazedev'  //jangan diganti bro nanti error
 global.jumlha = '999'
 global.jumhal = '100000000000000'
@@ -51,7 +51,7 @@ global.mess = {
 // Limit
 global.limitawal = {
     premium: "Infinity",
-    free: 25
+    free: 30
 }
 
 // Fake
@@ -59,15 +59,15 @@ global.thumb = fs.readFileSync('./media/image/naze.jpg')
 global.faall = fs.readFileSync('./media/image/fake.jpg')
 
 // Url
-global.mygit = 'https://github.com/nazedev'
-global.myyt = 'https://youtube.com/c/Nazedev'
-global.myytv = 'https://youtu.be/FAsL-Jy4qLc'
-global.mygc = "https://chat.whatsapp.com/Cp1OJenk6Q9D9vgLjLU558"
+global.mygit = 'https://instragram/granger_ambys'
+global.myyt = 'https://instagram.com/granger_ambys?igshid=YmMyMTA2M2Y='
+global.myytv = 'wa.me/6285798267620 save no owner kalo mau kenalan'
+global.mygc = "https://chat.whatsapp.com/LR8q27mkkihJptchGvpBct"
 
 // Engak Ngaruh, Belum Kepasang
-global.botname = 'NAZE BOT'
-global.akulaku = 'Bot By Naze'
-global.ytname = 'YT NAZE' //Kalo Ngk Punya Yt Ngak Usah Di Ganti
+global.botname = 'AMBYS BOTZ'
+global.akulaku = 'AMBYS DOULUO'
+global.ytname = 'XIAO SAN' //Kalo Ngk Punya Yt Ngak Usah Di Ganti
 
 
 let file = require.resolve(__filename)
