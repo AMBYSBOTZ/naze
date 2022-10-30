@@ -11,7 +11,7 @@ Yg Reupload Tanpa Kasih Cr
 Sc Akan Saya Encode
 
 Base : Hisoka
-Recode : Naze & ( Nama Lu )
+Recode : Naze & ( XIAO SAN )
 
 **/
 require('./config')
@@ -48,9 +48,9 @@ const hariiini = moment.tz('Asia/Jakarta').format('DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('© Naze\nYoutube/Sc :\nhttps://youtube.com/c/Nazedev')  //ubah di config biar ngk emror
-const ini_mark = `0@s.whatsapp.net`
-const ownernya = ownernomer + '@s.whatsapp.net'
+const nyoutube = ('© XIAO SAN\nfollow dulu/Sc :\nhttps://instagram.com/granger_ambys?igshid=YmMyMTA2M2Y=')  //ubah di config biar ngk emror
+const ini_mark = `6285798267620@s.whatsapp.net`
+const ownernya = ownernomer + '6285798267620@s.whatsapp.net'
 global.prem = require("./lib/premium")
 gambar = fs.readFileSync('./media/image/naze.jpg')
 
@@ -59,16 +59,16 @@ const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
  if(time2 < "23:59:00"){
 var ucapanWaktu = 'Selamat Malam 🌌'
  }
- if(time2 < "19:00:00"){
-var ucapanWaktu = 'Selamat Sore 🌃'
- }
  if(time2 < "18:00:00"){
-var ucapanWaktu = 'Selamat Sore 🌅'
+var ucapanWaktu = 'Selamat Malam 🌃'
  }
  if(time2 < "15:00:00"){
+var ucapanWaktu = 'Selamat Sore 🌅'
+ }
+ if(time2 < "10:00:00"){
 var ucapanWaktu = 'Selamat Siang 🏙'
  }
- if(time2 < "11:00:00"){
+ if(time2 < "09:00:00"){
 var ucapanWaktu = 'Selamat Pagi 🌄'
  }
  if(time2 < "05:00:00"){
@@ -1007,11 +1007,11 @@ break
             }
             break
             case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                naze.sendMessage(m.chat, { image: fs.readFileSync('./media/image/naze.jpg'), caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/naze_\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n Ke nomer berikut : 082113821188\n\n_Terima kasih_` }, { quoted: m })
+                naze.sendMessage(m.chat, { image: fs.readFileSync('./media/image/naze.jpg'), caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *follow ig gua aja kalo mau premium*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://instagram.com/granger_ambys?igshid=YmMyMTA2M2Y=_\n\n*Atau Transfer via*\n- *donasi via pulsa aja bro biar ni bot on terus*\n Ke nomer berikut : 085798267620\n\n_Terima kasih_` }, { quoted: m })
             }
             break
             case 'sc': {
-                m.reply('https://wa.me/6285875158363')
+                m.reply('https://wa.me/6285798267620')
             }
             break		 
             case 'subsyt': {
@@ -1028,8 +1028,8 @@ break
   buttons: buttons,
   headerType: 4,
   contextInfo:{externalAdReply:{
-  title: 'Naze Dev',
-  body: 'Subscribe My YouTube', 
+  title: 'XIAO SAN',
+  body: 'FOLLOW IG GUA', 
   showAdAttribution: true,
   thumbnail: thumb,
   mediaType:2,
@@ -1056,7 +1056,7 @@ break
             break
             case 'req': case 'request': {
             	if (!text) throw `Example : ${prefix + command} Fitur Min`
-               let ownernya = ownernomer + '@s.whatsapp.net'
+               let ownernya = ownernomer + '6285798267620@s.whatsapp.net'
                let me = m.sender
                let pjtxt = `Pesan Dari : @${me.split('@')[0]} \nUntuk : @${ownernya.split('@')[0]}\n\n${command} ${text}`
                let ments = [ownernya, me]
@@ -3650,7 +3650,7 @@ let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu'
             break
             case 'sponsor': {
             if (!m.isGroup) throw mess.group
-            let qontak = `6285718971848@s.whatsapp.net`
+            let qontak = `6285798267620@s.whatsapp.net`
 let dana = `6281911500445@s.whatsapp.net`
 let shopeeotp = `6285574670796@s.whatsapp.net`
 let shopee = `622150996855@s.whatsapp.net`
@@ -4157,7 +4157,7 @@ let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back'
             }
             break
             case 'allmenu': {
-            let ownernya = ownernomer + '@s.whatsapp.net'
+            let ownernya = ownernomer + '6285798267620@s.whatsapp.net'
             let me = m.sender
             let ments = [ownernya, me, ini_mark]
                 anu = ` ∫ » *${ucapanWaktu}* « ✧\n⚠︎ *kak @${me.split('@')[0]}*\n♕︎ *Powered : @${ini_mark.split('@')[0]}*\n ∫ » *Creator : @${ownernya.split('@')[0]}*
