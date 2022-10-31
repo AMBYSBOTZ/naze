@@ -59,16 +59,16 @@ const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
  if(time2 < "23:59:00"){
 var ucapanWaktu = 'Selamat Malam 🌌'
  }
- if(time2 < "18:00:00"){
+ if(time2 < "19:00:00"){
 var ucapanWaktu = 'Selamat Malam 🌃'
  }
- if(time2 < "15:00:00"){
+ if(time2 < "18:00:00"){
 var ucapanWaktu = 'Selamat Sore 🌅'
  }
- if(time2 < "10:00:00"){
+ if(time2 < "15:00:00"){
 var ucapanWaktu = 'Selamat Siang 🏙'
  }
- if(time2 < "09:00:00"){
+ if(time2 < "10:00:00"){
 var ucapanWaktu = 'Selamat Pagi 🌄'
  }
  if(time2 < "05:00:00"){
@@ -3650,7 +3650,7 @@ let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu'
             break
             case 'sponsor': {
             if (!m.isGroup) throw mess.group
-            let qontak = `6285798267620@s.whatsapp.net`
+            let qontak = `@s.whatsapp.net`
 let dana = `6281911500445@s.whatsapp.net`
 let shopeeotp = `6285574670796@s.whatsapp.net`
 let shopee = `622150996855@s.whatsapp.net`
